@@ -9,23 +9,64 @@ body {
 
 .container-form {
   background-color: white;
-  width: fit-content;
+  width: 25rem;
   margin: auto;
   text-align: center;
+  margin-top: 10rem;
 }
 
 .out {
-    border: none;
-    background-color: white;
-    color: red;
+  border: none;
+  background-color: white;
+  color: lightgreen;
+  padding-top: 1rem;
+  margin-left: 20rem;
+  font-size: 1.2rem ;
 }
 
 .out:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header {
   color: blue;
   font-size: 2rem;
   font-family: sans-serif;
+  margin-bottom: 2rem;
+}
+
+.ime {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-bottom: 2px solid lightgreen;
+}
+
+input {
+    margin-bottom: 1.5rem;
+}
+
+.acc {
+    padding-bottom: 3rem;
+}
+
+.terms-cond {
+    margin-left: -7rem;
+}
+
+.submit {
+    width: 11rem;
+    height: 2.5rem;
+    background-color: #11b4b3;
+    color: white;
+    border: 1px solid #11b4b3;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
