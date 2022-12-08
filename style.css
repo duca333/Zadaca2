@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(43, 174, 226);
+}
+
+.container-form {
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.out {
+    border: none;
+    background-color: white;
+    color: red;
+}
+
+.out:hover {
+    cursor: pointer;
+}
+
+.header {
+  color: blue;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
